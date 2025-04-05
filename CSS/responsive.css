@@ -1,0 +1,140 @@
+/* Extra small devices ( less than 576px) */
+@media (max-width: 575px) {
+    .hero-content h1 {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .hero-content,
+    .hero-image {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .features,
+    .pricing,
+    .footer {
+        padding: 2rem 1rem;
+    }
+
+    .feature-item,
+    .pricing-card {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
+
+/* Small devices (576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-item,
+    .pricing-card {
+        width: 100%;
+    }
+}
+
+/* Medium devices (768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content p {
+        font-size: 1.2rem;
+    }
+
+    .hero {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+
+    .feature-item,
+    .pricing-card {
+        width: 48%;
+    }
+
+    .custom-card {
+        animation: none;
+        opacity: 1;
+    }
+
+
+
+    .custom-card {
+        animation: none;
+        transition: none;
+    }
+
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer-heading {
+        margin-bottom: 16px;
+    }
+
+    .email-input {
+        max-width: 100%;
+    }
+
+}
+
+/* Large devices ( 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero-content h1 {
+        font-size: 2.6rem;
+    }
+
+    .hero-content p {
+        font-size: 1.3rem;
+    }
+
+    .feature-item,
+    .pricing-card {
+        width: 30%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .hero-content p {
+        font-size: 1.4rem;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
